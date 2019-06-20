@@ -5,6 +5,8 @@
  */
 package javaapplication39;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Desarrollo
@@ -15,7 +17,11 @@ public class JavaApplication39 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        JavaApplication39 vent = new JavaApplication39();
+        Ventana vent = new Ventana();
+        
+        vent.setSize(200, 200);
+        vent.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        vent.setVisible(true);
     }
     
 }
