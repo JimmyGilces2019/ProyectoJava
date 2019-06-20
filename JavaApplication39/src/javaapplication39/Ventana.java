@@ -39,6 +39,9 @@ public class Ventana extends JFrame{
         
         add(lblText);
         add(txtNombre);
+        add(lblText2);
+        add(txtPass);
+        add(btnEnviar);
     }
     
 }
